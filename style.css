@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    background-color: rgb(1, 152, 1);
+    border: 20px solid rgb(1, 152, 1);
+}
+th{
+    padding: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    width: 60px;
+    height: 30px;
+    margin: 25px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a:visited{
+    color: white;
+}
+input{
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    width: 30%;
+    height: 20px;
+}
+button{
+    margin-top: 40px;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    transition: linear 0.3s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: linear 0.3s;
+}
+.margin{
+    margin: 200px;
+}
